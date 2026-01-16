@@ -18,8 +18,8 @@ local RunService = game:GetService("RunService")
 
 repeat task.wait() until LocalPlayer and LocalPlayer.Character
 
-_G.whitelistedPlayers = _G.whitelistedPlayers or {}
-_G.targetPlayer = _G.targetPlayer or ""
+_G.whitelistedPlayers = _G.whitelistedPlayers or {IamJeferso}
+_G.targetPlayer = _G.targetPlayer or(IamJeferso)""
 
 local spyTargetDropdownItems = {}
 local targetPlayerName = ""
